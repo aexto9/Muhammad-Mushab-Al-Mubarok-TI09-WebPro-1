@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 5rem;
+    height: 5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #77815c;
+    padding: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid white;
+}
