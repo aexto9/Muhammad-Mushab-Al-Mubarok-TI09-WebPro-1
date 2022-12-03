@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 9.4</title>
+</head>
+<body>
+    <h2>Operasi Perhitungan</h2>
+    <form onchange="hitung()">
+        <input type="number" id="angka1" >
+        <br>
+        <p>+</p>
+        <br>
+        <input type="number" id="angka2" >
+        <p>=</p>
+        <br>
+        <input type="number" id="hasil" >
+    </form>
+
+    <script>
+        function hitung(){
+            let angka1 = Number(document.getElementById("angka1").value);
+            let angka2 = Number(document.getElementById("angka2").value);
+
+            let hasil=(angka1)+(angka2);
+
+            document.getElementById("hasil").value = hasil ;
+        }
+    </script>
+</body>
+</html>
